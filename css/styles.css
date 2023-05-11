@@ -1,0 +1,38 @@
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+.nav-menu {
+  color: #212121;
+}
+.nav-menu:hover,
+.nav-menu:focus {
+  color: #2196f3;
+}
+
+.nav-contacts {
+  text-decoration: none;
+  color: #757575;
+}
+
+h4 {
+  color: #212121;
+}
+
+.pic-details {
+  color: #757575;
+}
+
+.adress {
+  color: #ffffff;
+}
+
+.adress-two {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-color {
+  color: #2196f3;
+}

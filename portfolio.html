@@ -3,27 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+    </style>
   </head>
   <body>
     <header>
       <a href="index.html">WebStudio</a>
       <nav>
         <menu>
-          <li><a href="/">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="/">Kontakt</a></li>
+          <li><a class="nav-menu" href="/">Agencja</a></li>
+          <li><a class="nav-menu" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-menu" href="/">Kontakt</a></li>
         </menu>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="nav-contacts" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a
+      >
+      <a class="nav-contacts" href="tel:+48111111111">+48 111 111 111</a>
     </header>
     <main>
       <section>
-        <button type="button">Wszystkie</button>
-        <button type="button">Strony</button>
-        <button type="button">Aplikacje</button>
-        <button type="button">Dizajn</button>
-        <button type="button">Marketing</button>
+        <ul>
+          <li>
+            <button class="btn" type="button">Wszystkie</button>
+          </li>
+          <li><button class="btn" type="button">Strony</button></li>
+          <li><button class="btn" type="button">Aplikacje</button></li>
+          <li><button class="btn" type="button">Dizajn</button></li>
+          <li><button class="btn" type="button">Marketing</button></li>
+        </ul>
       </section>
       <section>
         <container>
@@ -35,32 +51,31 @@
                 width="370"
                 height="294"
               />
+              <h4>Technocrack</h4>
+              <p class="pic-details">Strona internetowa</p>
             </li>
             <li>
-              <h4>Technocrack</h4>
-              <p>Strona internetowa</p>
               <img
                 src="images/nba.jpg"
                 alt="Grafika NBA"
                 width="370"
                 height="294"
               />
+
+              <h4>Grafika New Orlean vs Golden Star</h4>
+              <!-- spróbować umieścic selektor dziecka, tak aby nie powielać klasy w każdym paragrafie-->
+              <p class="pic-details">Dizajn</p>
             </li>
             <li>
-              <h4>Grafika New Orlean vs Golden Star</h4>
-              <p>Dizajn</p>
               <img
                 src="images/seafood.jpg"
                 alt="Logo Seafood Restaurant"
                 width="370"
                 height="294"
               />
-            </li>
-            <li>
               <h4>Restauracja Seafood</h4>
-              <p>Aplikacja</p>
+              <p class="pic-details">Aplikacja</p>
             </li>
-
             <li>
               <img
                 src="images/headset.jpg"
@@ -68,9 +83,9 @@
                 width="370"
                 height="294"
               />
+              <h4>Projekt Prime</h4>
+              <p class="pic-details">Marketing</p>
             </li>
-            <h4>Projekt Prime</h4>
-            <p>Marketing</p>
             <li>
               <img
                 src="images/boxes.jpg"
@@ -78,9 +93,9 @@
                 width="370"
                 height="294"
               />
+              <h4>Projekt Boxes</h4>
+              <p class="pic-details">Aplikacja</p>
             </li>
-            <h4>Projekt Boxes</h4>
-            <p>Aplikacja</p>
             <li>
               <img
                 src="images/monitor.jpg"
@@ -88,9 +103,9 @@
                 width="370"
                 height="294"
               />
+              <h4>Inspiration has no Borders</h4>
+              <p class="pic-details">Strona internetowa</p>
             </li>
-            <h4>Inspiration has no Borders</h4>
-            <p>Strona internetowa</p>
             <li>
               <img
                 src="images/magazine.jpg"
@@ -98,9 +113,9 @@
                 width="370"
                 height="294"
               />
+              <h4>Magazyn Limited Edition</h4>
+              <p class="pic-details">Dizajn</p>
             </li>
-            <h4>Magazyn Limited Edition</h4>
-            <p>Dizajn</p>
             <li>
               <img
                 src="images/labeltag.jpg"
@@ -108,9 +123,9 @@
                 width="370"
                 height="294"
               />
+              <h4>Projekt LAB</h4>
+              <p class="pic-details">Marketing</p>
             </li>
-            <h4>Projekt LAB</h4>
-            <p>Marketing</p>
             <li>
               <img
                 src="images/growingbuisness.jpg"
@@ -118,18 +133,18 @@
                 width="370"
                 height="294"
               />
+              <h4>Growing Business</h4>
+              <p>Aplikacja</p>
             </li>
-            <h4>Growing Business</h4>
-            <p>Aplikacja</p>
           </ul>
         </container>
       </section>
     </main>
     <footer>
-      <p>WebStudio</p>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <a href="mailto:info@example.com">>info@example.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <p class="logo-color">WebStudio</p>
+      <address class="adress">m. Warszawa, Aleje Jerozolimskie 21</address>
+      <a class="adress-two" href="mailto:info@example.com">>info@example.com</a>
+      <a class="adress-two" href="tel:+48111111111">+48 111 111 111</a>
     </footer>
   </body>
 </html>
