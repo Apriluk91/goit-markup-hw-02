@@ -1,38 +1,111 @@
+.logo-fonts {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+.nav-menu {
+  color: #212121;
+}
+.nav-menu:focus,
+.nav-menu:hover {
+  color: #2196f3;
+}
+
+.nav-fonts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+menu a {
+  text-decoration: none;
+}
+
+.nav-contacts {
+  color: #757575;
+  text-decoration: none;
+}
+.nav-contacts:hover,
+.nav-contacts:focus {
+  color: #2196f3;
+}
+
+.h1-studio {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+
+.btn-h1-main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.h2-studio {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+.p-h2-studio {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+.h3-studio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.p-h3-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.p-h3-studio-second {
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
 .btn:hover,
 .btn:focus {
   background-color: #2196f3;
   cursor: pointer;
 }
 
-.nav-menu {
-  color: #212121;
-}
-.nav-menu:hover,
-.nav-menu:focus {
-  color: #2196f3;
-}
-
-.nav-contacts {
-  text-decoration: none;
-  color: #757575;
-}
-
-h4 {
+.h4-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
   color: #212121;
 }
 
-.pic-details {
+.p-h4-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
   color: #757575;
 }
 
 .adress {
   color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .adress-two {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.logo-color {
-  color: #2196f3;
+  font-size: 14px;
+  line-height: 1.71;
 }
