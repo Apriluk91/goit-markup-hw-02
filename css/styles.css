@@ -1,3 +1,9 @@
+:root {
+  --brand-color: #2196f3;
+  --snow: #ffffff;
+  --nearly-black: #212121;
+  --gray: #757575;
+}
 .logo-fonts {
   font-family: 'Raleway';
   font-style: normal;
@@ -7,7 +13,7 @@
 }
 
 .logo-color {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .nav-menu {
@@ -15,7 +21,7 @@
 }
 .nav-menu:focus,
 .nav-menu:hover {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .nav-fonts {
@@ -29,59 +35,60 @@ menu a {
 }
 
 .nav-contacts {
-  color: #757575;
+  color: var(--gray);
   text-decoration: none;
 }
 .nav-contacts:hover,
 .nav-contacts:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .h1-studio {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: #ffffff;
+  color: var(--snow);
 }
 
 .btn-h1-main {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--snow);
+  background-color: var(--brand-color);
+  cursor: pointer;
 }
 .h2-studio {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: #212121;
+  color: var(--nearly-black);
 }
 .p-h2-studio {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--nearly-black);
 }
 .h3-studio {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  color: #212121;
+  color: var(--nearly-black);
 }
 .p-h3-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: #212121;
+  color: var(--nearly-black);
 }
 .p-h3-studio-second {
   font-size: 16px;
   line-height: 1.18;
-  color: #757575;
+  color: var(--nearly-black);
 }
 .btn:hover,
 .btn:focus {
-  background-color: #2196f3;
+  background-color: var(--brand-color);
   cursor: pointer;
 }
 
@@ -89,17 +96,17 @@ menu a {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--nearly-black);
 }
 
 .p-h4-portfolio {
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--gray);
 }
 
 .adress {
-  color: #ffffff;
+  color: var(--snow);
   font-size: 14px;
   line-height: 1.71;
 }
@@ -108,4 +115,9 @@ menu a {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
+}
+
+.adress-two:hover,
+.adress-two:focus {
+  color: var(--brand-color);
 }
