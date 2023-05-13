@@ -4,6 +4,12 @@
   --nearly-black: #212121;
   --gray: #757575;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+        background-color: #e5e5e5;
+}
+
 .logo-fonts {
   font-family: 'Raleway';
   font-style: normal;
