@@ -36,7 +36,12 @@ body {
   line-height: 1.17;
 }
 
-.main-theme-color {
+.footer-styles {
+  position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
 background-color: var(--main-theme);
 }
 
