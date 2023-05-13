@@ -1,5 +1,5 @@
 :root {
-  --brand-color: #2196f3;
+  --blue-sky: #2196f3;
   --snow: #ffffff;
   --nearly-black: #212121;
   --gray: #757575;
@@ -13,7 +13,7 @@
 }
 
 .logo-color {
-  color: var(--brand-color);
+  color: var(--blue-sky);
 }
 
 .nav-menu {
@@ -21,7 +21,7 @@
 }
 .nav-menu:focus,
 .nav-menu:hover {
-  color: var(--brand-color);
+  color: var(--blue-sky);
 }
 
 .nav-fonts {
@@ -34,13 +34,17 @@ a {
   text-decoration: none;
 }
 
+.list-type {
+  list-style-type: none;
+}
+
 .nav-contacts {
   color: var(--gray);
   text-decoration: none;
 }
 .nav-contacts:hover,
 .nav-contacts:focus {
-  color: var(--brand-color);
+  color: var(--blue-sky);
 }
 
 .h1-studio {
@@ -55,7 +59,7 @@ a {
   font-size: 16px;
   line-height: 1.87;
   color: var(--snow);
-  background-color: var(--brand-color);
+  background-color: var(--blue-sky);
   cursor: pointer;
 }
 .h2-studio {
@@ -88,7 +92,7 @@ a {
 }
 .btn:hover,
 .btn:focus {
-  background-color: var(--brand-color);
+  background-color: var(--blue-sky);
   cursor: pointer;
 }
 
@@ -119,5 +123,5 @@ a {
 
 .adress-two:hover,
 .adress-two:focus {
-  color: var(--brand-color);
+  color: var(--blue-sky);
 }
