@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: #fff;
 }
 
 .logo-fonts {
@@ -42,6 +43,10 @@ background: var(--main-theme);
 
 .section-one {
 background: var(--main-theme);
+}
+
+.section-two {
+background: #F5F4FA;
 }
 
 a {
