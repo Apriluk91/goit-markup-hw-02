@@ -42,7 +42,7 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-background-color: var(--main-theme);
+background: var(--main-theme);
 }
 
 .section-one {
@@ -51,7 +51,7 @@ width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-background-color: var(--main-theme);
+background: var(--main-theme);
 }
 
 a {
