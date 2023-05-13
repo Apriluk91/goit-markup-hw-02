@@ -37,7 +37,7 @@ body {
 }
 
 .main-theme-color {
-color: var(--main-theme);
+background-color: var(--main-theme);
 }
 
 a {
