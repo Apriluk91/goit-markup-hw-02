@@ -1,6 +1,6 @@
 :root {
   --blue-sky: #2196f3;
-  --main-theme: #2F303A;
+  --main-theme: #2f303a;
   --snow: #ffffff;
   --nearly-black: #212121;
   --gray: #757575;
@@ -23,6 +23,10 @@ body {
   color: var(--blue-sky);
 }
 
+.logo-color-footer {
+  color: var(--snow);
+}
+
 .nav-menu {
   color: #212121;
 }
@@ -38,15 +42,15 @@ body {
 }
 
 .footer-styles {
-background: var(--main-theme);
+  background: var(--main-theme);
 }
 
 .section-one {
-background: var(--main-theme);
+  background: var(--main-theme);
 }
 
 .section-team {
-background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 a {
@@ -111,13 +115,13 @@ a {
 }
 
 .btn {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-border-style: none;
-border: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-style: none;
+  border: 4px;
 }
 
 .btn:hover,
